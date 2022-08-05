@@ -11,6 +11,7 @@
 		231F0E24289D62450075AAA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E23289D62450075AAA3 /* ContentView.swift */; };
 		231F0E26289D62460075AAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E25289D62460075AAA3 /* Assets.xcassets */; };
 		231F0E29289D62460075AAA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E28289D62460075AAA3 /* Preview Assets.xcassets */; };
+		231F0E37289D64FC0075AAA3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E36289D64FC0075AAA3 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		231F0E23289D62450075AAA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		231F0E25289D62460075AAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231F0E28289D62460075AAA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		231F0E36289D64FC0075AAA3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				231F0E21289D62450075AAA3 /* WeatherProjectSwiftUIApp.swift */,
-				231F0E23289D62450075AAA3 /* ContentView.swift */,
+				231F0E2F289D63EB0075AAA3 /* Views */,
+				231F0E30289D64020075AAA3 /* Models */,
+				231F0E31289D64140075AAA3 /* Utils */,
 				231F0E25289D62460075AAA3 /* Assets.xcassets */,
 				231F0E27289D62460075AAA3 /* Preview Content */,
 			);
@@ -65,6 +69,61 @@
 				231F0E28289D62460075AAA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		231F0E2F289D63EB0075AAA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				231F0E32289D643B0075AAA3 /* Main */,
+				231F0E33289D644C0075AAA3 /* Navigation */,
+				231F0E34289D645C0075AAA3 /* Detail */,
+				231F0E35289D646D0075AAA3 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		231F0E30289D64020075AAA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		231F0E31289D64140075AAA3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				231F0E36289D64FC0075AAA3 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		231F0E32289D643B0075AAA3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				231F0E23289D62450075AAA3 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		231F0E33289D644C0075AAA3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		231F0E34289D645C0075AAA3 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		231F0E35289D646D0075AAA3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				231F0E24289D62450075AAA3 /* ContentView.swift in Sources */,
+				231F0E37289D64FC0075AAA3 /* Extensions.swift in Sources */,
 				231F0E22289D62450075AAA3 /* WeatherProjectSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
