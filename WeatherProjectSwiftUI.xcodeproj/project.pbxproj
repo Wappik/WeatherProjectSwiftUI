@@ -13,6 +13,8 @@
 		231F0E29289D62460075AAA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F0E28289D62460075AAA3 /* Preview Assets.xcassets */; };
 		231F0E37289D64FC0075AAA3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E36289D64FC0075AAA3 /* Extensions.swift */; };
 		231F0E39289D69AC0075AAA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E38289D69AC0075AAA3 /* HomeView.swift */; };
+		231F0E3B289D87B60075AAA3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E3A289D87B60075AAA3 /* TabBar.swift */; };
+		231F0E3F289ED0CC0075AAA3 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F0E3E289ED0CC0075AAA3 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		231F0E28289D62460075AAA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		231F0E36289D64FC0075AAA3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		231F0E38289D69AC0075AAA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		231F0E3A289D87B60075AAA3 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		231F0E3E289ED0CC0075AAA3 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				231F0E36289D64FC0075AAA3 /* Extensions.swift */,
+				231F0E3E289ED0CC0075AAA3 /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 		231F0E33289D644C0075AAA3 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				231F0E3A289D87B60075AAA3 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				231F0E39289D69AC0075AAA3 /* HomeView.swift in Sources */,
 				231F0E37289D64FC0075AAA3 /* Extensions.swift in Sources */,
 				231F0E22289D62450075AAA3 /* WeatherProjectSwiftUIApp.swift in Sources */,
+				231F0E3B289D87B60075AAA3 /* TabBar.swift in Sources */,
+				231F0E3F289ED0CC0075AAA3 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
