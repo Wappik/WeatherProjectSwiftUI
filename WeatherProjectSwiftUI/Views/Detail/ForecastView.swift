@@ -12,8 +12,20 @@ struct ForecastView: View {
         ScrollView {
             
         }
+        .backgroundBlur(radius: 25, opaque: true)
         .background(Color.bottomSheetBackground)
         .clipShape(RoundedRectangle(cornerRadius: 44))
+        .overlay {
+            // MARK: Bottom Sheet Inner Shadow (Border)
+            RoundedRectangle(cornerRadius: 44)
+                .stroke(.white, lineWidth: 1)
+                .blendMode(.overlay)
+                .offset(y: 1)
+                .blur(radius: 0)
+                .mask {
+                    RoundedRectangle(cornerRadius: 44)
+                }
+        }
         .overlay {
             // MARK: Bottom Sheet Separator
             Divider()
